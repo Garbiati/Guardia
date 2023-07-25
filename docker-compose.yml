@@ -1,0 +1,14 @@
+version: '3'
+services:
+  record:
+    build: ./record-ms
+    ports:
+      - "8081:8081"
+  user:
+    build: ./user-ms
+    ports:
+      - "8082:8082"
+  ui:
+    build: ./guardia-ui
+    ports:
+      - "8080:8080"
