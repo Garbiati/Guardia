@@ -1,0 +1,9 @@
+[submodule "record-ms"]
+	path = record-ms
+	url = https://github.com/DiogoSantosSilva/record-ms.git
+[submodule "user-ms"]
+	path = user-ms
+	url = https://github.com/DiogoSantosSilva/user-ms.git
+[submodule "guardia-ui"]
+	path = guardia-ui
+	url = https://github.com/DiogoSantosSilva/guardia-ui.git
